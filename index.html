@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="fr">
     <head>
@@ -6,24 +7,20 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Projet4 ohmyfood</title>
-
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;500&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+      <!--Google font -->
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,300&display=swap" rel="stylesheet">
+      
+      
                 <!--fontawesome icons -->
 <script
 src="https://kit.fontawesome.com/e890b50b4f.js" crossorigin="anonymous">
 </script>
        <!--css responsive link -->
-<link rel="stylesheet" href="sass/scss/main.scss">
- <!--css desktop link -->
- <link rel="stylesheet" href="sass/scss/main.css.map">
+<link rel="stylesheet" href="assets/responsive.css">
+  <!-- Desktop css -->
+  <link rel="stylesheet" href="assets/style.css">
 
- <!-- css -->
- <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
@@ -32,29 +29,29 @@ src="https://kit.fontawesome.com/e890b50b4f.js" crossorigin="anonymous">
     <body>
 
         <header>
+            <div class="logo">
               <!-- Logo-->
-              <img src="/assets/Images_et_ textes Ohmyfood_4/images/logo/ohmyfood.png" alt="logo ohmyfood" width="200"/>
-                     
+              <img src="assets/Images/logo/ohmyfood.png" width="200"/>
+            </div>         
                <!-- location box-->   
               <div class="location">
                      <!-- location DoT-->
-                <div class="location-dot">
+               
                 <i class="fa-solid fa-location-dot"></i>
+                <!-- location name-->
+                
+                <p>Paris, bellevile </p> 
                 </div>
-                    <!-- location name-->
-                <div class="Villes">
-                <p>Paris,bellevile </p> 
-                </div>
-           </div>
+           
 
 
                 <!-- annonce section -->
                 <section class="annonce">
                     <H1> Réservez le menu qui vous convient</H1>
-                    <p>Réservez des restaurant d'exception sélectionnés par nos soins</p>
+                    <p>Réservez des restaurant d'exception, sélectionnés par nos soins</p>
                    <!-- Button to explorate restaurants-->
                  <div class="buton-cta">
-                    <button class="btn-header"> Explorez nos restaurant </button>
+                    <button class="btn-header"><p><b>Explorez nos restaurant</b></p> </button>
                  </div>
                 </section>    
             </header>
@@ -65,41 +62,54 @@ src="https://kit.fontawesome.com/e890b50b4f.js" crossorigin="anonymous">
              <section class="function-3-stages">
                 <h2>Fonctionnement</h2>
                     <!-- stage container -->    
-               <div class="3-stages-container" >
+               <div class="three-stages-container" >
 
                  <!-- box to select the restaurant-->
+                 <div class="container-stage">
                  <div class="stage-number">
+                 <div class="number" id="round-one">
                  <p>1</p>
+                 </div>   
                 </div>
                  <!-- Mobile icon-->
                 <i class="fa-solid fa-mobile-screen-button"></i>
                 <div class="restaurant-choice">
-                    <p>Choisissez un restaurant</p>
+                    <p>Explorez nos restaurants</p>
+                 </div>
                  </div>
 
+                   
                        <!--Stage 2-->
+                 <div class="container-stage">     
                  <div class="stage-number">
-                    <p>2</p>
-                   </div>
+                    <div class="number">
+                        <p>2</p>
+                        </div>   
+                       </div>
                       <!-- Menu bar icon-->
                    <i class="fa-solid fa-bars"></i>
                    <!-- box to select the menu-->
                 <div class="restaurant-choice">
-                   
                 <p>Composez votre menu</p>
+                 </div>
                 </div>
 
 
                  <!--Stage 3-->
+                 <div class="container-stage">
                 <div class="stage-number">
-                    <p>3</p>
-                   </div>
+                    <div class="number">
+                        <p>3</p>
+                        </div> 
+                           </div>  
                       <!-- Restaurant icon-->
                    <i class="fa-solid fa-store"></i>
                   <!--Go eat at the restaurant-->
                 <div class="restaurant-choice">
                     <p>Degustez au restaurant</p>
+                    
                 </div>
+                 </div>
                </div>
              </section>
 
@@ -107,54 +117,72 @@ src="https://kit.fontawesome.com/e890b50b4f.js" crossorigin="anonymous">
 
               <!-- Restaurant Card section-->
              <section class="restaurant-card-sec">
-               <h3>Restaurants</h3>
-
+               <h3  class="h3">Restaurants</h3>
+             <div class="restaurant-container">
             <!-- Restaurant Card 1-->
                 <div class="restaurant-card">
                     <a href="">
                         <div class="img-card">
-                            <img src="assets/Images et textes Ohmyfood/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="photo la palette du gout" width="200"/>
+                            <img src="assets/Images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="photo la palette du gout" width="200"/>
                         </div>
                         <i class="fa-regular fa-heart"></i>
                         <legend><h4>La palette du gout</h4></legend>
+                        <p>Menilmontant</p>
                     </a>
+
+                    
+                </div>
                     <!-- Restaurant Card 2-->
                     <div class="restaurant-card">
                         <a href="">
-                            <div class="img-card">
-                                <img src="assets/Images et textes Ohmyfood/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="photo" width="200"/>
+                            <div class="img-card-">
+                                <img src="assets/Images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="photo" width="200"/>
                             </div>
-                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-heart"></i>
                             <legend><h4>La note enchantée</h4></legend>
+                            <p>Charonne</p> 
                         </a>
+                       
                          <!-- Restaurant Card 3-->
+                        </div>
 
                      <div class="restaurant-card">
                             <a href="">
                                 <div class="img-card">
-                                    <img src="assets/Images et textes Ohmyfood/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="photo" width="200" height="180"/>
+                                    <img src="assets/Images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="photo" width="200" height="180"/>
                                 </div>
                                 <i class="fa-regular fa-heart"></i>
                                 <legend><h4> À la française</h4></legend>
+                                <p>Cité</p> 
                             </a>
-
+                           </div>
+                           
                             <!-- Restaurant Card 4-->
                             <div class="restaurant-card">
                                 <a href="">
                                     <div class="img-card">
-                                        <img src="assets/Images et textes Ohmyfood/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="photo" width="200"/>
+                                        <img src="assets/Images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="photo" width="200"/>
                                     </div>
                                     <i class="fa-regular fa-heart"></i>
                                     <legend><h4>Le délice des sens</h4></legend>
+                                    <p>Folle-melicourt</p>
                                 </a>
+                            </div>
+                        </div>
                 </div>
              </section>
 
             </main>
-           <footer>
-            
-           </footer>
+            <footer>
+                <ul>
+                  <li><a href="#">Proposer un restaurant</a></li>
+                  <li><a href="#">Devenir partenaire</a></li>
+                  <li><a href="#">Mentions légales</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </footer>
+              
 
 
     </body>
-</html>
+</html
