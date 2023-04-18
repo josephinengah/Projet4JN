@@ -196,8 +196,10 @@ Ul{
     margin-left: 14%;
   }
 button{
+  margin-left: 27%;
   border-radius: 50px;
     width: 39%;
+    padding: 3%;
 }
 h4{
   position: relative;
