@@ -1,8 +1,6 @@
-
-
 /*Mobile*/
 
-@media screen and (min-width:450px) and (max-width:767px) {
+@media screen and (min-width:450px) and (max-width:766px) {
   
 }
 
@@ -83,7 +81,7 @@ main{
     .btn-header{
     display: flex;
   padding: 3%;
-  border-radius: 23PX;
+  border-radius: 10rem;
   width:60vw;
   height:15vw;
   background-image:linear-gradient(#FF79DA,#9356DC);
@@ -264,21 +262,152 @@ Ul{
 
 /*Tablette*/
 
-@media screen and (max-width:768px){
-  
+
+@media only screen and (min-width: 408px) and (max-width: 517px){
+ .btn-header{
+height:4rem;
+ } 
+
 }
 
 
-
-
-
-
-
+@media only screen and (min-width: 518px) and (max-width: 649px){
+  .btn-header{
+ height:5rem;
+  } 
+ 
+ }
 
 /*Desktop*/
 
-@media screen and (min-width:1200px){
+@media only screen and (min-width: 768px) and (max-width: 1624px)
 
+{
+  .logo img{ 
+    font-size: 2vh;
+  }
+  .annonce h1{
+    font-size: 169%;
+  }
+  .annonce p{
+    line-height:0;
+  }
+
+  .btn-header{
+   
+    width:100%;
+    margin-top: 0;
+   height:unset;
+    border-radius: 3rem;
+  }
+  .three-stages-container {
+    
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    gap: 2em;
+  
+}
+  .container-stage {
+    width:100%;
+    gap: 3em;
+  }
+
+
+
+  .restaurant-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:unset;
+
+    flex-direction: row;
+    width:100%;
+    flex-wrap: wrap;
+
+}
+
+.restaurant-card{
+  width: 40%;
+}
+
+.restaurant-card-sec{
+  background-color: #F7F7F7;
+}
+  
+
+.function-3-stagesmargin-left{ 
+  margin-left:7%;
+    font-size: 22px;
+  
+    
+}
+
+.function-3-stages H2,h3{
+  margin-bottom:-5%;
+}
+h3{
+
+  margin-bottom: 0;
+  margin-left:9%;
+  font-size: 22px;
+  padding-top: 2%;
+}
+.container-stage i:hover{
+  color:
+  #9356DC;
+   
+}
+.three-stages-container:hover{
+  background-color:
+  #d3beed;
+}
+.annonce {
+  background-color: #f2f2f2;
+  padding-bottom: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.7rem;
+  padding-bottom: 2.5rem;
+  height: unset;
+  white-space: nowrap;
+  font-size: 140%;
+}
+
+.function-3-stage{
+  margin-top: -9%;
+}
+
+h4{
+  position: relative;
+    left: 0;
+
+}
+
+
+Ul {
+  margin-right: 10EM;
+  display: flex;
+  position: relative;
+  right: 4%;
+  gap: 5%;
+
+}
+li a{font-size: 16px;}
+footer{    flex-direction: row-reverse;}
+footer a{
+  padding-left: 14%;
   
 }
 
+footer h4{
+  margin-right: 0;
+}
+
+Footer
+{
+  margin-right: 0;
+}
+}
