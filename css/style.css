@@ -1,8 +1,8 @@
 /*Mobile*/
 
-@media screen and (min-width:450px) and (max-width:766px) {
+@media screen and (min-width:400px) {
   
-}
+
 
 :root {
   --violet-main: #9356DC;;
@@ -17,38 +17,34 @@
   padding: 0;
   font-family: 'Roboto', sans-serif;
 }
-main{
-  margin-bottom: 8%;
-}
+
 /* logo */
 .logo{
   display: flex;
   justify-content: center;
-  font-size: 1rem;
-  margin-top: 1.2rem;
-  border-top: 1px solid  #f2f2f2;
-  margin-bottom: 3%;
-  background-color: white;
-  
   }
+
+  .logo img{
+
+    padding: 3%;
+    width: 35%;
+  }
+
+ 
  /*  Position and details of the Icon and location at the bottom of the logo */
   .location{
-  
-    padding:1.5%;
     height: 2rem;   
     display: flex;
     justify-content:center;
     align-items:center;
     gap:5%;
-    border-top: 1px solid #E8E8E8;
-    border-bottom: 1px solid #E8E8E8;
-    background-color: var(--grey-main);
-    box-shadow: 3px  3px 4px 4px #f5f5f5;
-    box-shadow: 0px -4px 11px 4px#E8E8E8;}
+    border-top: 3px solid #e9E9E9;;
+    background-color:#ededed;
+ }
 
 
     .annonce  {
-      background-color:#f2f2f2;
+      background-color:#f7f7f7;
       padding-bottom:1%;
       display: flex;
       flex-direction: column;
@@ -56,7 +52,8 @@ main{
       align-items: center;
       padding-top: 1.7rem;
       padding-bottom:2.5rem;
-      height: 30vh;} 
+      height: 30vh;
+    } 
 
     .annonce h1  {
       font-size:x-large;
@@ -69,6 +66,7 @@ main{
 
     .annonce p{
       font-family: 'Roboto', sans-serif;
+      font-size: 60%;
       font-weight: 100;
       display: flex;
       justify-content: center;
@@ -80,20 +78,22 @@ main{
 
     .btn-header{
     display: flex;
-  padding: 3%;
   border-radius: 10rem;
-  width:60vw;
-  height:15vw;
-  background-image:linear-gradient(#FF79DA,#9356DC);
+  color: white;
   border:transparent;
-  margin-top: 2%;
-  margin-top: 2vh;
-font-size: 1.2rem;
+  padding: 0.6rem;
 
 }
+
+
+.btn{
+  background-image:linear-gradient(#FF79DA,#9356DC);
+}
 button p{
-  color:white;
- font-size: 90%;
+  color: white;
+  font-size: 80%;
+  margin: 3%;
+  font-weight: 400;
 
 }
 
@@ -102,10 +102,10 @@ margin-top: 9%;
 }
 
 .function-3-stages H2, h3{
-margin-bottom: 5%;
+
 margin-left: 7%;
 margin-left: 7%;
-    font-size: 22px;
+font-size: 1.2rem;
 }
 
 .three-stages-container{
@@ -118,16 +118,26 @@ margin-left: 7%;
 .container-stage{
   
   border-radius: 1.4rem;
-  box-shadow: 0.1em 0.1em 0.9em #e7e7e7;
   display: flex;
   flex-direction: row;
   padding: 1.1em;
-  /* padding: 1.9em; */
   align-items: center;
-  padding-left: 0.01em;
   gap: 2%;
+  margin-right: 3.5vh;
+  margin-left: 3vh;
+  background-color: #f7f7f7;
+  box-shadow: .25rem 0.25rem 0.5rem lightgray;
 }
 
+.container-stage i:hover{
+  color:
+  #9356DC;
+   
+}
+.container-stage :hover{
+ background-color:
+ #9356DC;
+}
   
 
 .stage-number{
@@ -140,17 +150,18 @@ align-self: flex-start;
 }
 
 .number{
-  margin-left: 5%;
-  margin-left: -0.8em;
+
+  margin-left: -2em;
+  color: white;
 }
 .number p{
 
-  margin-right: 9%;
+    
     background: #9356DC;
     border-radius: 93px;
     padding:0.69em 1.1em 0.69em;
-    Width: 15%;
-    font-size: 0.7em;
+    Width: 16%;
+    font-size: 0.66em;
     display: flex;
     position: relative;
     margin:2%;
@@ -175,6 +186,16 @@ box-shadow: 0.1em 0.1em 0.4em;
 /* gap: 5vh; */
 width:91%;
 }
+.restaurant-card-sec {
+  background-color: #f7f7f7;
+  padding-bottom: 13%;
+  padding-top: 11%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+  
+ 
 .novelty{
 
   background: #99E2D0;
@@ -204,6 +225,8 @@ padding-left: 0.8em;
 }
 .restaurant-card a{
   text-decoration: none;
+  background-color: white;
+  border-radius: 8%;
 }
 .img-card img, .img-card-2 img{width:100%;
   display: flex;
@@ -227,21 +250,18 @@ h4, .restaurant-card P{
   font-weight: 300;
   
 }
+
 footer{
   display: flex;
-  background-color: #353535;
-  
-
- 
-}
+  background-color: #3f3b3b;
+  flex-direction: column;}
 footer a, li{
   text-decoration: none;
   color:white;
   display: flex;
- gap:5%;
  font-size: 20px;
  white-space: nowrap;
- padding-left: 3%;
+ padding-right: 4rem;
 
 }
 
@@ -251,46 +271,152 @@ footer h4{
   font-weight: bolder;
   font-size: 22px;
  color: white;
- margin-right: 10EM;
-
+ background-color:#686565;
+ margin-right: 15rem;
+ padding-top: 0.6rem;
 }
-
-Ul{
-  margin-right: 10EM;
-}
-
-
-/*Tablette*/
-
-
-@media only screen and (min-width: 408px) and (max-width: 517px){
- .btn-header{
-height:4rem;
- } 
-
-}
-
-
-@media only screen and (min-width: 518px) and (max-width: 649px){
-  .btn-header{
- height:5rem;
-  } 
  
- }
+
+
+footer ul{
+
+  padding-bottom: 9%;
+}
+
+}
+
+
+
+
+/*tablet*/
+
+@media only screen and (min-width: 768px)
+{
+
+  .annonce{
+    padding-top: 5%;
+    height: unset;
+  }
+  .annonce p{
+    padding: 3%;
+    font-size: 89%;
+  }
+   
+  .function-3-stages H2, h3 {
+    margin-bottom: -1%;
+    margin-left: 18%;
+    margin-left: 12%;
+   
+    
+}
+ 
+  h2{
+    margin-left: 19%;
+    margin-top: 0;
+    font-size: 1.3rem;
+  }
+.three-stages-container{
+  flex-direction: row;
+  gap: 2.5em;
+    justify-content: center;
+}
+
+.restaurant-choice{
+    width: 12em;
+
+}
+.restaurant-container{
+  flex-direction: row;
+}
+.container-stage{
+  margin-right: 0.1vh;
+  margin-left: 0.1vh;
+  padding: 0.45em;
+}
+.restaurant-choice p{
+  padding: 0;
+
+  white-space: nowrap;
+
+}
+.restaurant-card-sec {
+  background-color: #f7f7f7;
+  padding-bottom:0;
+  padding-top: 0;
+}
+
+.number {
+  margin-left: -1.6em;
+  color: white;
+  margin-top: 0.2rem;
+}
+.number p{
+  Width:14%;
+}
+.function-3-stages {
+ margin-top: 0;
+
+}
+.function-3-stages h2{
+  margin-bottom: -2%;
+}
+
+.logo img {
+  padding: 1%;
+  width: 17%;
+}
+.location {
+  padding: 0;
+  height: 1.9rem;
+  gap:1%;
+}
+.annonce h1, .annonce p {
+  white-space: nowrap;
+  line-height: 7%;
+}
+.btn-header{
+  width: unset;
+}
+.restaurant-card-sec {
+ 
+  padding-bottom: 5%;
+  padding-top: 0;
+}
+.restaurant-card.restaurant-card-sec{
+  display: flex;
+
+}
+footer ul{display:flex;
+  flex-direction: row;
+ 
+}
+.h3{
+  padding-top: 0;
+}
+}    
+
 
 /*Desktop*/
 
-@media only screen and (min-width: 768px) and (max-width: 1624px)
-
+@media only screen and (min-width: 1189px)
 {
+  
+
   .logo img{ 
-    font-size: 2vh;
+       
+    width: 13%;
+    padding: 1%;
+      
   }
-  .annonce h1{
-    font-size: 169%;
+  .location{
+    gap:1%;
+    height: unset;
+    padding: 0.6%;
   }
+ 
   .annonce p{
     line-height:0;
+    padding:3%;
   }
 
   .btn-header{
@@ -304,48 +430,61 @@ height:4rem;
     
     display: flex;
     flex-direction: row;
-    padding: 5%;
-    gap: 2em;
+    justify-content: center;
+    padding: 3%;
   
 }
   .container-stage {
-    width:100%;
-    gap: 3em;
+    width: unset;
+    padding: 1em;
   }
 
-
+  .container-stage p{
+    gap: 1em;
+  }
 
   .restaurant-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items:unset;
-
+    background-color: #f7f7f7;
     flex-direction: row;
     width:100%;
-    flex-wrap: wrap;
-
+ 
 }
+
 
 .restaurant-card{
   width: 40%;
 }
-
 .restaurant-card-sec{
-  background-color: #F7F7F7;
+  padding-bottom: 5%;
+    padding-top:0;
+    padding-right: 5%;
+    padding-left: 5%;
 }
-  
+}
 
-.function-3-stagesmargin-left{ 
-  margin-left:7%;
+ .restaurant-choice{
+  width: 25vh;
+  white-space: nowrap;
+  padding: 0.5em;
+ } 
+
+.function-3-stages{ 
+    margin-left:7%;
     font-size: 22px;
-  
-    
+    font-size: 90%;
+    margin-top:1%;  
 }
+
 
 .function-3-stages H2,h3{
-  margin-bottom:-5%;
+  margin-bottom:-1%;
+  margin-left:14%;
 }
+
 h3{
 
   margin-bottom: 0;
@@ -353,15 +492,13 @@ h3{
   font-size: 22px;
   padding-top: 2%;
 }
-.container-stage i:hover{
+
+.container-stage i:hover {
   color:
   #9356DC;
    
 }
-.three-stages-container:hover{
-  background-color:
-  #d3beed;
-}
+
 .annonce {
   background-color: #f2f2f2;
   padding-bottom: 1%;
@@ -376,10 +513,6 @@ h3{
   font-size: 140%;
 }
 
-.function-3-stage{
-  margin-top: -9%;
-}
-
 h4{
   position: relative;
     left: 0;
@@ -388,26 +521,34 @@ h4{
 
 
 Ul {
-  margin-right: 10EM;
+  margin-left: 10EM;
   display: flex;
+  flex-direction: row;
   position: relative;
-  right: 4%;
-  gap: 5%;
+  left: 4%;
+  gap: 1%;
 
 }
+
 li a{font-size: 16px;}
-footer{    flex-direction: row-reverse;}
+
+
 footer a{
-  padding-left: 14%;
+  padding-right:2rem;
   
 }
 
 footer h4{
-  margin-right: 0;
+  margin-right: 11em;
+  padding:0;
+}
+ footer ul {
+  padding-bottom: 0;
+ }
+Footer
+{flex-direction:row-reverse;
+
+} 
 }
 
-Footer
-{
-  margin-right: 0;
-}
-}
+
