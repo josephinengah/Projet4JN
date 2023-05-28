@@ -63,7 +63,13 @@ h3{
     width: 90%;
 
 }
-
+span::after{
+  content:"";
+color:green;
+width: 2em;
+height: 2em;
+vertical-align: -0.125em; 
+}
 .restaurant-choice p{
 
   display: flex;
@@ -75,14 +81,10 @@ h3{
   
 }
 
-
-.price-one span {
-  position: relative;
-  left: 19rem;
+b{
+  position: relative  ;
+  right: 400%;
 }
-
-
-
 
 .card{
   border-radius: 1.4rem;
@@ -95,15 +97,41 @@ h3{
   width: 99%;
   
     }
-  span{
-    font-weight: ;
-  }  
-.fa-solid.fa-check{visibility: hidden;
-  position: relative;
-  left: 99%;
-  /* bottom: 8em; */
-  display: flex;
-  align-items: center;}
+  
+.choice-validation-box{
+  background-color: #99e2d0;
+    display: flex;
+    align-items: flex-end;
+align-self: flex-end;
+    transition-duration: .5s;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    position: relative;
+    left: 4.5%;
+    margin: -1rem -5rem -1rem 1rem;
+    border-radius:0% 9px 9px 0px;
+
+
+}
+.choice-background-box{
+  height: 1.6rem;
+    width: 1.6rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    transform: rotate(180deg);
+    transition-duration: .5s;
+}
+.fa-check{
+  color:#99E2D0;
+  background-color: #fff;
+  font-size: 2rem;
+}
+
+
+
 
 .img-restaurant img{
   width:100%;
