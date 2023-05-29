@@ -385,10 +385,12 @@ footer h4{
  margin-right: 39%;
    
 }
- 
+
+ .animatiion-heart{
+  display: grid;
+  grid-template-rows:0.11rem;
+ }
 .fa-regular{
-  
-  padding: 0.45em;
   padding-right: 1rem;
 
 }
@@ -397,17 +399,16 @@ color:transparent;
  width:5%;
 
 }
-.fa-solid{
-visibility: hidden;
-padding-right: 0.5rem;
+.fa-solid.fa-heart{
+color:transparent;
 
 }
-.fa-solid:hover{
-  visibility:var();
-  background-color: linear-gradient(
-    #9747FF, #FF79DA);
- 
-  
+.fa-solid.fa-heart:hover{
+  background-image: linear-gradient(#9356DC, #FF79DA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;  
   }
 
 footer ul{
@@ -427,7 +428,7 @@ footer ul{
 
 /*tablet*/
 
-@media only screen and (min-width: 768px)
+@media only screen and (min-width: 568px)
 {
 
   .annonce{
@@ -554,7 +555,7 @@ footer h4{
 
 /*Desktop*/
 
-@media only screen and (min-width: 1189px)
+@media only screen and (min-width: 769px)
 {
   
 
@@ -636,6 +637,9 @@ footer h4{
     font-size: 22px;
     font-size: 90%;
     margin-top:1%;  
+    display: flex;
+    width:55rem;
+    justify-content: center;
 }
 
 

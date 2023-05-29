@@ -70,6 +70,9 @@ width: 2em;
 height: 2em;
 vertical-align: -0.125em; 
 }
+.restaurant-choice {
+
+}
 .restaurant-choice p{
 
   display: flex;
@@ -102,7 +105,7 @@ b{
   background-color: #99e2d0;
     display: flex;
     align-items: flex-end;
-align-self: flex-end;
+    align-self: flex-end;
     transition-duration: .5s;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -110,8 +113,13 @@ align-self: flex-end;
     left: 4.5%;
     margin: -1rem -5rem -1rem 1rem;
     border-radius:0% 9px 9px 0px;
+    width:5%;
+    transition-duration: .4s;
 
 
+}
+.check-element{
+  color:#99E2D0
 }
 .choice-background-box{
   height: 1.6rem;
@@ -121,13 +129,8 @@ align-self: flex-end;
     align-items: center;
     justify-content: center;
     border-radius: 100px;
-    transform: rotate(180deg);
-    transition-duration: .5s;
-}
-.fa-check{
-  color:#99E2D0;
-  background-color: #fff;
-  font-size: 2rem;
+    transform: rotate(170deg);
+    transition-duration: .4s;
 }
 
 
