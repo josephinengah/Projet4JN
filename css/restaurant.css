@@ -1,4 +1,4 @@
-@media screen and (min-width:450px) and (max-width:767px) {
+@media screen and (min-width:450px)  {
   
 }
 
@@ -26,15 +26,44 @@ main{border-radius: 23px;
  
 }
 
- 
+.animatiion-heart{
+  display: grid;
+  grid-template-rows:0.11rem;
+  margin-left:96%;
+  
+ }
+.fa-regular{
+  padding-right: 1rem;
+
+}
+.fa-regular:hover{
+color:transparent;
+ width:5%;
+
+}
+.fa-solid.fa-heart{
+color:transparent;
+
+}
+.fa-solid.fa-heart:hover{
+  background-image: linear-gradient(#9356DC, #FF79DA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;  
+  }
 
 H1{
   font-family: 'Shrikhand', cursive;
   font-weight: bolder;
   font-size: 28px;
   margin-left:2%;
- 
+  display: flex;
+  width: 75%;
+
+
 }
+
 H2{
   
   font-weight: 300;
@@ -63,16 +92,8 @@ h3{
     width: 90%;
 
 }
-span::after{
-  content:"";
-color:green;
-width: 2em;
-height: 2em;
-vertical-align: -0.125em; 
-}
-.restaurant-choice {
 
-}
+
 .restaurant-choice p{
 
   display: flex;
@@ -84,10 +105,7 @@ vertical-align: -0.125em;
   
 }
 
-b{
-  position: relative  ;
-  right: 400%;
-}
+
 
 .card{
   border-radius: 1.4rem;
@@ -97,43 +115,114 @@ b{
   flex-direction: column;
   padding: 0.9em;
   font-weight: 100;
-  width: 99%;
-  
+
     }
+    .card-position{
+      display:flex;
+    }
+    
   
+    @keyframes rotate2 {
+     
+      100% {
+        animation: 1s ease-in 1s;
+      }
+
+
+      
+    
+     
+    }
 .choice-validation-box{
-  background-color: #99e2d0;
+  background-color:transparent;
     display: flex;
     align-items: flex-end;
     align-self: flex-end;
-    transition-duration: .5s;
-    padding-left: 2rem;
+    padding-left: 1.66rem;
     padding-right: 2rem;
-    position: relative;
-    left: 4.5%;
-    margin: -1rem -5rem -1rem 1rem;
-    border-radius:0% 9px 9px 0px;
-    width:5%;
-    transition-duration: .4s;
+    position: absolute;
+    left: 84%;
+    border-radius:0rem 1.4rem 1.4rem 0rem;
+    margin: -1rem -5rem -1rem -3rem;
+    height: 4.5rem;         
+    animation: animation1  ease 0s infinite normal none;
+  transition: 70ms;
+  }
 
+@keyframes animation1 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100px);
+  }
+}
+
+
+.price-animation:hover{
+  
+  margin-right: 30%;
+  
+}
+
+
+
+
+@keyframes decallage {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50px);
+  }
+  
+}
+
+.choice-validation-box:hover{
+ background-color: #99E2D0;
+    transform: translate(49px);
+    
+   
+  
+  }
+
+
+.fa-solid.fa-check{
+  color:transparent
+}
+.fa-solid.fa-check:hover{
+  color: #99E2D0;
+  
 
 }
-.check-element{
-  color:#99E2D0
+.choice-background-box:hover{
+background-color:white;
+transform: rotate(360deg);
 }
 .choice-background-box{
-  height: 1.6rem;
-    width: 1.6rem;
-    background-color: #fff;
+  height: 2rem;
+    width: 2rem;
+    background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 100px;
-    transform: rotate(170deg);
-    transition-duration: .4s;
+    margin-bottom: 1.1rem;
+ 
+    transition-duration: 1500ms;
 }
 
 
+
+
+.choice-validation-box:hover{
+  animation:push-price;
+}
+@keyframes push-price{
+  100%{background-color: #99e2d0;
+
+  }
+}
 
 
 .img-restaurant img{
@@ -190,6 +279,21 @@ footer{
 
  
 }
+span:hover{
+  transform: translate(-50%);
+  
+ }
+ @keyframes glissade {
+  from {
+    margin-left: 100%;
+ 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 footer a, li{
   text-decoration: none;
   color:white;
@@ -212,10 +316,47 @@ footer h4{
 
 
 }
+@keyframes move {
+  
+
+0% {
+  translate: scale(0);
+}
+100% {
+  translate: scale(1);
+}
+}
 
 Ul{
   margin-left: 1EM;
 }
+
+@keyframes sectionAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.option-plat,
+.option-dessert {
+  animation: sectionAnimation 1s ease-in-out;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.option-plat {
+  animation-delay: 0.5s;
+}
+
+.option-dessert {
+  animation-delay: 1s;
+}
+
 
 
 
@@ -223,7 +364,7 @@ Ul{
 
 {
   main{
-    width: 80%;
+    width: 83%;
     margin-left: 10%;       
   }
 button{
@@ -265,4 +406,15 @@ footer h4{
   margin-top: 1%;
 
 }
+
+
+
+.choice-validation-box{
+  left:79%;
+  height: 9.2%;
+ }
+ .check-element{
+  
+ }
+
 }
