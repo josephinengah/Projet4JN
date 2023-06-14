@@ -38,7 +38,7 @@ main {
 .animatiion-heart {
   display: grid;
   grid-template-rows: 0.11rem;
-  margin-left: 96%;
+  margin-left: 90%;
 }
 .fa-regular {
   padding-right: 1rem;
@@ -57,14 +57,21 @@ main {
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
 }
-
-H1 {
-  font-family: "Shrikhand", cursive;
-  font-weight: bolder;
-  font-size: 28px;
-  margin-left: 2%;
+.h1-heart{
   display: flex;
-  width: 75%;
+flex-direction: row;
+  width:62%;
+  border: 5px solid orange;
+  white-space: nowrap;
+}
+H1 {
+
+  font-family: "Shrikhand", cursive;
+  white-space: nowrap;
+  font-weight: bolder;
+  font-size: 20px;
+  margin-left: 2%;
+  width: 90%;
 }
 
 H2 {
