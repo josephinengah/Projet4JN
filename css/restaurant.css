@@ -308,18 +308,15 @@ h1 h4 {
 
 button {
   display: flex;
-  align-items: center;
-  align-content: center;
-  padding: 5%;
-  border-radius: 29px;
+  padding: 3%;
+  border-radius: 22px;
   width: 16rem;
   background-image: linear-gradient(#ff79da, #9356dc);
   border: transparent;
   margin: 2%;
-  white-space: nowrap;
   margin-left: center;
-  margin-left: 18%;
-  margin-bottom: 4%;
+  justify-content: center;
+  align-self: center;
 }
 button p {
   color: white;
@@ -416,7 +413,7 @@ Ul {
     padding: 1rem;
     display: flex;
     justify-content: center;
-    margin-left: 19rem;
+
   }
   button p {
     font-size: 1rem;
