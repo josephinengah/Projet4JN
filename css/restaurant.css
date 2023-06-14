@@ -60,7 +60,8 @@ main {
 .h1-heart{
   display: flex;
 flex-direction: row;
-  width:62%;
+justify-content: space-between;
+  width:72%;
   border: 5px solid orange;
   white-space: nowrap;
 }
@@ -255,12 +256,11 @@ h3 {
   transform: translate(49px);
 } */
 
-.fa-solid.fa-check {
-  color: transparent;
+
+.fa-solid, .fas{
+  color:#99e2d0;
 }
-.fa-solid.fa-check:hover {
-  color: #99e2d0;
-}
+
 /* .choice-background-box:hover {
   background-color: white;
   transform: rotate(360deg);
