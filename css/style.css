@@ -185,14 +185,16 @@ margin-top: 9%;
 
 .function-3-stages H2, h3{
 
-margin-left: 7%;
-margin-left: 7%;
+position: relative;
+right: 16%;
 font-size: 1.2rem;
 }
 
 .three-stages-container{
   display: flex;
   flex-direction: column;
+  position: relative;
+  right: 40%;
   padding: 5%;
   gap: 1em;
 }
@@ -591,6 +593,7 @@ footer h4{
   .container-stage {
     width: unset;
     padding: 1em;
+    font-size: 67%;
   }
   .container-stage:hover {
     background-color: #F5EDFF;
@@ -632,11 +635,10 @@ footer h4{
 .function-3-stages{ 
     margin-left:7%;
     font-size: 22px;
-    font-size: 90%;
     margin-top:1%;  
     display: flex;
     width:55rem;
-    justify-content: center;
+    
 }
 
 
