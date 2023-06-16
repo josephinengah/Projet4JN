@@ -25,7 +25,9 @@
 }
 
 i.fa-solid.fa-arrow-left {
-  margin-left: 5%;
+  position: relative;
+  right: 3em;
+  color: black;
 }
 
 main {
@@ -34,7 +36,9 @@ main {
   display: flex;
   flex-direction: column;
 }
-
+.main-content{
+  margin-bottom: -5%;
+}
 .animatiion-heart {
   display: grid;
   grid-template-rows: 0.11rem;
@@ -302,12 +306,15 @@ h1 h4 {
 }
 .logo {
   display: flex;
-  align-items: center;
-  gap: 15%;
-  margin-left: 4%;
+  align-items:center;
+  justify-content: center;
+  gap:25%;
   margin-top: 1%;
   margin-bottom: 1%;
+
+  border:pink solid 3px;
 }
+
 
 button {
   display: flex;
@@ -406,6 +413,9 @@ Ul {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1624px) {
+  .logo{
+    gap:7%;
+  }
   main {
     width: 83%;
     margin-left: 10%;
@@ -464,5 +474,4 @@ Ul {
   } */
   .check-element {
   }
-}
 }
