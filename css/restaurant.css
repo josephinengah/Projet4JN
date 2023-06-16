@@ -44,6 +44,7 @@ main {
   grid-template-rows: 0.11rem;
   position: relative;
   left: 38%;
+  font-size: 23px;
 }
 .fa-regular {
   padding-right: 1rem;
@@ -69,7 +70,6 @@ main {
 flex-direction: row;
 justify-content: space-between;
   width:72%;
-  border: 5px solid orange;
   white-space: nowrap;
 }
 H1 {
@@ -327,6 +327,7 @@ button {
   margin-left: center;
   justify-content: center;
   align-self: center;
+  margin-bottom: 9%;
 }
 button p {
   color: white;
@@ -357,6 +358,7 @@ span:hover {
 footer a,
 li {
   text-decoration: none;
+  white-space: nowrap;
   color: white;
   display: flex;
   gap: 2%;
@@ -454,7 +456,7 @@ Ul {
   }
   footer {
     flex-direction: row-reverse;
-    padding-bottom: 0;
+    padding-top: 5%;
   }
   footer a {
     padding-left: 4%;
