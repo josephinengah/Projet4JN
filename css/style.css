@@ -1,6 +1,6 @@
 /*Mobile*/
 
-@media screen and (min-width:400px) {
+@media screen and (min-width:390px) {
   
 
 
@@ -138,7 +138,8 @@ z-index: 100;
     } 
 
     .annonce h1  {
-      font-size:x-large;
+      font-size:90%;
+      margin-right: 9%;
       width:17ch;
       display: flex;
       justify-content: center;
@@ -148,13 +149,14 @@ z-index: 100;
 
     .annonce p{
       font-family: 'Roboto', sans-serif;
-      font-size: 60%;
+      font-size: 52%;
       font-weight: 100;
       display: flex;
       justify-content: center;
       text-align: center;
-      padding:5%;
+      padding:3%;
       width:33ch;
+      margin-right: 7%;
     }
 
 
@@ -164,6 +166,7 @@ z-index: 100;
   color: white;
   border:transparent;
   padding: 0.6rem;
+  margin-right: 2rem;
 
 }
 
@@ -180,6 +183,7 @@ button p{
 }
 
 .function-3-stages{
+margin-left: 27%;
 margin-top: 9%;
 }
 
@@ -204,7 +208,7 @@ font-size: 1.2rem;
   border-radius: 1.4rem;
   display: flex;
   flex-direction: row;
-  padding: 1.1em;
+  padding: 0.8em;
   align-items: center;
   gap: 2%;
   margin-right: 3.5vh;
@@ -364,7 +368,7 @@ h4, .restaurant-card P{
 footer{
   display: flex;
   flex-direction: column;
- 
+  padding-left: 35%;
   background-color: #3f3b3b;
  }
 footer a, li{
@@ -395,6 +399,9 @@ footer h4{
 .fa-regular{
   padding-right: 1rem;
 
+}
+.restaurant-choice{
+  font-size: 17px;
 }
 .fa-regular:hover{
 color:transparent;
@@ -460,6 +467,7 @@ footer ul{
 
 .restaurant-choice{
     width: 12em;
+    font-size: 20px;
 
 }
 .restaurant-container{
@@ -541,8 +549,10 @@ footer h4{
   margin-bottom:
 }
 .footer-container{
+
   display:flex;
   flex-direction:row-reverse;
+  
 }
 
 .h3{
@@ -633,8 +643,7 @@ footer h4{
  } 
 
 .function-3-stages{ 
-    margin-left:7%;
-    font-size: 22px;
+    margin-left:17%;
     margin-top:1%;  
     display: flex;
     width:55rem;

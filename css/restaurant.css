@@ -1,4 +1,4 @@
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 390px) {
 }
 
 /* @keyframes itemAppear {
@@ -31,10 +31,14 @@ i.fa-solid.fa-arrow-left {
 }
 
 main {
+  display: grid;
+  grid-template-rows:-4rem;
   border-radius: 23px;
   background-color: #f7f7f7;
   display: flex;
   flex-direction: column;
+  position: relative;
+  top: -3.5rem;
 }
 .main-content{
   margin-bottom: -5%;
@@ -193,6 +197,8 @@ h3 {
   transform: rotate(0);
 }
 
+
+
 /* .restaurant-choice p {
   display: flex;
   justify-content: space-between;
@@ -265,7 +271,7 @@ h3 {
 
 
 .fa-solid, .fas{
-  color:#99e2d0;
+  color:white;
 }
 
 /* .choice-background-box:hover {
@@ -311,8 +317,6 @@ h1 h4 {
   gap:25%;
   margin-top: 1%;
   margin-bottom: 1%;
-
-  border:pink solid 3px;
 }
 
 
