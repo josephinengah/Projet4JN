@@ -33,15 +33,15 @@ i.fa-solid.fa-arrow-left {
 main {
   display: grid;
   grid-template-rows:-4rem;
-  border-radius: 23px;
+  border-radius: 23px 23px 0px 0px;
   background-color: #f7f7f7;
   display: flex;
   flex-direction: column;
   position: relative;
-  top: -3.5rem;
+ top: -1.2rem;;
 }
 .main-content{
-  margin-bottom: -5%;
+  margin-bottom: -1.3%;
 }
 .animatiion-heart {
   display: grid;
@@ -274,6 +274,10 @@ h3 {
   color:white;
 }
 
+.fa-check.fas.meal--icon {
+  color:#99e2d0;
+
+}
 /* .choice-background-box:hover {
   background-color: white;
   transform: rotate(360deg);
